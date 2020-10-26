@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "emotecraft-emotestealer",
+  "version": "${version}",
+  "name": "Emote stealer",
+  "description": "Steal emotes from Emotecraft",
+  "authors": [
+    "KosmX"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/emotecraft-emotestealer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [],
+    "client": [
+      "com.kosmx.emotestealer.Main"
+    ],
+    "server": []
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.10.3"
+  }
+}
