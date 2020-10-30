@@ -15,7 +15,7 @@ group = project.maven_group
  * mavenLocal() is required until I (KosmX) make a global repo
  */
 repositories{
-	mavenLocal()
+	//mavenLocal()
 }
 
 minecraft {
@@ -28,16 +28,9 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 
-	//These repos are required to run Emotecraft in dev env.
-	modRuntime "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	modRuntime "io.github.prospector:modmenu:${project.modmenu_version}"
-	modRuntime "me.shedaniel.cloth:config-2:${project.cloth_version}"
-
-	//You'll find it here https://github.com/kosmx/bendy-lib
-	modRuntime "com.kosmx.bendylib:bendy-lib:${project.bendylib_version}"
-
 	//You'll mod Emotecraft.
 	modImplementation "com.kosmx.emotecraft:emotes:${project.emotecraft_version}"
+	include "com.kosmx.emotecraft:emotes:${project.emotecraft_version}"
 }
 
 processResources {
