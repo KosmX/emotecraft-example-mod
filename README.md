@@ -3,11 +3,22 @@
 How to begin?
 
 This is a Minecraft mod. So make a new minecraft mod.  
-You should set up the basic things like names, etc.
+You should set up the basic things like names, etc.  
+I advice to start here [Fabricmc.net](https://fabricmc.net/wiki/tutorial:setup)
 
-To start modding Emotecraft, you need to implement emotecraft!
+To start modding Emotecraft, you need to implement emotecraft!  
+Add this to the gradle.build file:  
 
 ```groovy
+
+repositories{
+	(...)
+	//using jcenter repository
+	//If you are using jcenter already, you don't have to do it twice...
+	jcenter()
+	(...)
+}
+(...)
 dependencies{
     (...)
 	//You'll mod Emotecraft.
