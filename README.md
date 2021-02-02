@@ -34,4 +34,8 @@ If you want to include emotecraft in your mod jar, do
 You can find the mod callbacks in `com.kosmx.emotecraft.EmotecraftCallbacks`  
 There are comments in code, what are mostly useful...
 
-Don't forget that you can use mixin on mods too.
+Don't forget that you can use mixin on mods too.  
+to build this, use gradle
+```bash
+./gradlew build
+```
