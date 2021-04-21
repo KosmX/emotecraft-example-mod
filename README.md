@@ -1,3 +1,8 @@
+# This is only for emotecraft 1.4   
+
+For emotecraft networking template see [emotes-proxy-template](https://github.com/KosmX/emotes-proxy-template)   
+
+
 # Emotecraft Example mod
 
 How to begin?
